@@ -2,9 +2,9 @@
   "name": "next-js-boilerplate",
   "version": "1.0.0",
   "scripts": {
-    "dev": "node api.js && next",
+    "dev": "next",
     "build": "next build",
-    "start": "node api.js && next start",
+    "start": "next start",
     "build-stats": "ANALYZE=true npm run build",
     "export": "next export -o dist",
     "build-prod": "run-s clean build export",
